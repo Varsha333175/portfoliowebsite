@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { FaLinkedin, FaGithub, FaEnvelope, FaFilePdf } from 'react-icons/fa';
-import { SiLeetcode } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import ResumePDF from '../assets/Varsha_SDE.pdf';
 
@@ -123,7 +122,6 @@ const About = () => {
             { icon: <FaLinkedin size={32} />, link: "https://www.linkedin.com/in/tvarshar/", color: "text-blue-600" },
             { icon: <FaGithub size={32} />, link: "https://github.com/Varsha333175", color: "text-gray-700" },
             { icon: <FaEnvelope size={32} />, link: "mailto:vreddy012025@gmail.com", color: "text-red-600" },
-            { icon: <SiLeetcode size={32} />, link: "https://leetcode.com/vcr11/", color: "text-yellow-500" },
           ].map((item, index) => (
             <motion.a 
               key={index} 
