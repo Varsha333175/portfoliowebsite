@@ -13,6 +13,7 @@ import chatServerImage from "../assets/chat server.webp";
 import caesarCipherImage from "../assets/ceaser cipher tool.webp";
 import tcpChatImage from "../assets/tcp chat.webp";
 import fakeNewsImage from "../assets/fake news detector pluguin ui.webp";
+import stock from "../assets/stock-prediction.png";
 const projects = [
   {
     id: 1,
@@ -51,11 +52,11 @@ const projects = [
   },
   {
     id: 5,
-    name: "Maze Game",
-    technologies: "JavaScript, WebGL",
-    image: mazeImage,
-    github: "https://github.com/Varsha333175/maze",
-    description: "A classic maze-solving game implemented using JavaScript."
+    name: "Stock Prediction Model",
+    technologies: "Python, LSTM, Pandas",
+    image: stock,
+    github: "https://github.com/Varsha333175/portfoliowebsite",
+    description: "A deep learning model using LSTM networks to forecast stock prices based on historical data."
   },
   {
     id: 6,
@@ -106,7 +107,19 @@ const projects = [
     github: "https://github.com/Varsha333175/FakeNewsDetectorPlugin",
     liveDemo: "https://fakenewsdetectorplugin.onrender.com",
     description: "A browser extension that detects and flags fake news using AI models."
-  }
+  },
+  
+  {
+    id: 12,
+    name: "Maze Game",
+    technologies: "JavaScript, WebGL",
+    image: mazeImage,
+    github: "https://github.com/Varsha333175/maze",
+    description: "A classic maze-solving game implemented using JavaScript."
+  },
+
+  
+  
 ];
 
 const Projects = () => {
